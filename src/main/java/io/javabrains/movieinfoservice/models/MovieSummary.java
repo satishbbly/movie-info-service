@@ -2,7 +2,14 @@ package io.javabrains.movieinfoservice.models;
 
 public class MovieSummary {
 
-    private String id;
+    public MovieSummary(String id, String title, String overview) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.overview = overview;
+	}
+
+	private String id;
     private String title;
     private String overview;
 
